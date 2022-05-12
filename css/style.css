@@ -1,0 +1,81 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background:url('../img/outerspace.gif') repeat-y 100% 100% fixed;
+  height:100%;
+  width:100%;
+  background-color: black;
+  color: lightgray;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+header, footer{
+  height: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer{
+  margin-top: 50px;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.game{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gameSquare{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  border: 1px solid lightgray;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.playAgain{
+  padding-top: 30px;
+}
+
+#reset{
+  width: 250px;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
