@@ -4,7 +4,7 @@ A web app of the classic game using JavaScript OOP best practices.
 
 **Link to project:** https://brianandrewoneil.github.io/TicTacToe/
 
-<img alt="image of web app" src="https://brianandrewoneil.github.io/TicTacToe/img/TTT.png" width=50%>
+<img alt="image of web app" src="https://brianandrewoneil.github.io/TicTacToe/img/TTT.PNG" width=50%>
 
 ## How It's Made
 
